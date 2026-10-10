@@ -23,8 +23,9 @@ Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years
 
 - [kube-rightsize-diff](https://github.com/gratycodes/kube-rightsize-diff): a Go PR check that compares Kubernetes CPU and memory requests with Prometheus usage and comments with cost impact.
 
-### Evals and data
+### ML, evals and data
 
+- [fraud-feature-pipeline](https://github.com/gratycodes/fraud-feature-pipeline): a fraud-scoring pipeline on synthetic card data with shared streaming and offline features (Kafka, Redis, DuckDB), a LightGBM model with leakage-safe training, a FastAPI scoring API, and train/serve skew and drift checks.
 - [evaldelta](https://github.com/gratycodes/evaldelta): Python stats for LLM evals (bootstrap CIs, McNemar, power, judge agreement) and a GitHub Action that posts the result on a PR.
 - [rag-evaluation-lab](https://github.com/gratycodes/rag-evaluation-lab): a small Python harness that scores RAG output for recall@k, MRR, citation coverage and lexical groundedness.
 
