@@ -6,8 +6,25 @@ Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years
 
 ## Projects
 
-- [agent-runtime-kit](https://github.com/gratycodes/agent-runtime-kit): a minimal Python agent loop with a tool registry, pluggable LLM, transcript memory and golden evals, tested in CI with a deterministic fake model.
-- [rag-evaluation-lab](https://github.com/gratycodes/rag-evaluation-lab): a small Python harness that scores RAG output for recall@k, MRR, citation coverage and a lexical groundedness check.
-- [payment-ledger-platform](https://github.com/gratycodes/payment-ledger-platform): a Spring Boot double-entry ledger API with idempotent posting and per-currency balance checks; persistence and the outbox publisher are next.
+### Agents and AI observability
+
+- [agent-runtime-kit](https://github.com/gratycodes/agent-runtime-kit): a minimal Python agent loop with a tool registry, optional OpenTelemetry GenAI tracing, and record/replay for regression tests.
+- [otel-genai-cost](https://github.com/gratycodes/otel-genai-cost): an OpenTelemetry Collector processor that prices GenAI spans in USD, records spend by model and custom dimensions, and alerts on daily budgets.
+- [genai-trace-diff](https://github.com/gratycodes/genai-trace-diff): a browser-only React app that turns GenAI traces into a chat timeline and diffs two runs ([live demo](https://gratycodes.github.io/genai-trace-diff/)).
+- [kafka-ops-mcp](https://github.com/gratycodes/kafka-ops-mcp): a Java/Spring Boot MCP server for safe Kafka and DLQ inspection, with dry-run-gated replay.
+
+### Backend and payments
+
+- [payment-ledger-platform](https://github.com/gratycodes/payment-ledger-platform): a Spring Boot double-entry ledger API with idempotent posting and per-currency balance checks.
+- [idempotency-spring-boot-starter](https://github.com/gratycodes/idempotency-spring-boot-starter): Stripe-style `Idempotency-Key` support and webhook dedupe for Spring Boot APIs.
+
+### Platform and DevOps
+
+- [kube-rightsize-diff](https://github.com/gratycodes/kube-rightsize-diff): a Go PR check that compares Kubernetes CPU and memory requests with Prometheus usage and comments with cost impact.
+
+### Evals and data
+
+- [evaldelta](https://github.com/gratycodes/evaldelta): Python stats for LLM evals (bootstrap CIs, McNemar, power, judge agreement) and a GitHub Action that posts the result on a PR.
+- [rag-evaluation-lab](https://github.com/gratycodes/rag-evaluation-lab): a small Python harness that scores RAG output for recall@k, MRR, citation coverage and lexical groundedness.
 
 [LinkedIn](https://www.linkedin.com/in/gratusantin)
