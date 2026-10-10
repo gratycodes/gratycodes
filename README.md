@@ -1,6 +1,6 @@
 # Gratus Antin
 
-Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years of experience. I build agentic AI systems and LLM tooling, Java/Spring Boot and Kafka backends, payments platforms, and Next.js frontends. Before PayPal I was a Principal Software Engineer at Oracle, and earlier worked at Citi, DTCC, Cognizant and Hexaware. The projects below are personal work, built in my own time.
+Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years of experience. I build agentic AI systems and LLM tooling, Java/Spring Boot and Kafka backends, payments platforms, and Next.js frontends. Before PayPal I was a Principal Software Engineer at Oracle, and earlier worked at Citi, DTCC, Cognizant and Hexaware. The projects below are personal projects.
 
 **Stack:** Java, Spring Boot, Kafka, Python, Go, TypeScript, Node.js, React, Next.js, LLM and agent tooling.
 
