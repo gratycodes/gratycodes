@@ -23,6 +23,7 @@ Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years
 
 - [kube-rightsize-diff](https://github.com/gratycodes/kube-rightsize-diff): a Go PR check that compares Kubernetes CPU and memory requests with Prometheus usage and comments with cost impact.
 - [schema-evolution-gate](https://github.com/gratycodes/schema-evolution-gate): a Go CLI and GitHub Action that fails PRs breaking Kafka event schemas (Avro, JSON Schema) using Schema Registry compatibility rules and sample replay, no registry needed.
+- [tfplan-triage](https://github.com/gratycodes/tfplan-triage): a Go CLI and GitHub Action that reviews Terraform/OpenTofu plans in one PR comment, ranking destroyed data stores, IAM widening, new internet exposure and drift across AWS, GCP and Azure, with label-based approvals.
 
 ### ML, evals and data
 
