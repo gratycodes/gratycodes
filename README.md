@@ -8,6 +8,7 @@ Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years
 
 ### Agents and AI observability
 
+- [dispute-copilot](https://github.com/gratycodes/dispute-copilot): a chargeback triage system on synthetic data, where an agent calls read-only MCP tools to recommend a decision with cited evidence and a reviewer approves or overrides it in a React console, backed by a Spring Boot service with Postgres and Kafka.
 - [agent-runtime-kit](https://github.com/gratycodes/agent-runtime-kit): a minimal Python agent loop with a tool registry, optional OpenTelemetry GenAI tracing, and record/replay for regression tests.
 - [otel-genai-cost](https://github.com/gratycodes/otel-genai-cost): an OpenTelemetry Collector processor that prices GenAI spans in USD, records spend by model and custom dimensions, and alerts on daily budgets.
 - [genai-trace-diff](https://github.com/gratycodes/genai-trace-diff): a browser-only React app that turns GenAI traces into a chat timeline and diffs two runs ([live demo](https://gratycodes.github.io/genai-trace-diff/)).
