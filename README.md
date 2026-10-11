@@ -14,6 +14,10 @@ Senior Software Engineer at PayPal, based in Chennai, India, with about 11 years
 - [genai-trace-diff](https://github.com/gratycodes/genai-trace-diff): a browser-only React app that turns GenAI traces into a chat timeline and diffs two runs ([live demo](https://gratycodes.github.io/genai-trace-diff/)).
 - [kafka-ops-mcp](https://github.com/gratycodes/kafka-ops-mcp): a Java/Spring Boot MCP server for safe Kafka and DLQ inspection, with dry-run-gated replay.
 
+### Frontend
+
+- [chat-fault-lab](https://github.com/gratycodes/chat-fault-lab): a Next.js app that injects stream failures (stalls, dropped connections, 429s, broken frames, split UTF-8, streamed tool calls) into an OpenAI-compatible chat and shows an accessible UI handling each one, with Playwright and axe tests ([live demo](https://gratycodes.github.io/chat-fault-lab/)).
+
 ### Backend and payments
 
 - [payment-ledger-platform](https://github.com/gratycodes/payment-ledger-platform): a Spring Boot double-entry ledger API with idempotent posting and per-currency balance checks.
